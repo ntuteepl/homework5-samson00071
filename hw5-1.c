@@ -3,11 +3,11 @@
 
 int main()
 {
-    int c;
+    float c;
     double f;
 
-    scanf("%d",&c);
-    f=(double)c*9/5+32;
+    scanf("%f",&c);
+    f=c*9/5+32;
     printf("%.1f",f);
 
 }
