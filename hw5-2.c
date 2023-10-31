@@ -6,7 +6,7 @@ int main()
     int min;
     double money,discount;
     discount=1;
-    printf("請輸入通話分鐘數\n");
+   
     scanf("%d",&min);
     if(money>800 && money<=1500)
         discount=0.9;
@@ -16,7 +16,6 @@ int main()
 
     money=min*0.9*discount;
 
-    printf("通話費%.1f\n",money);
+    printf("%.1f\n",money);
     return 0;
 }
-
