@@ -8,7 +8,7 @@ int main()
 
 
     scanf("%d%d",&h,&m);
-    angle=(h*30+0.2*m)-m*6;
+    angle=(h*30+0.5*m)-m*6;
    if(1>h || h>12 )
     goto exit;
      if(59<m || m<0 )
@@ -19,8 +19,8 @@ int main()
     if(angle>180)
         angle=360-angle;
 
-    printf("%.1f\n",angle);
+    printf("%.3f\n",angle);
     return 0;
     exit:
-
+ return 0;
 }
